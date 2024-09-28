@@ -1,6 +1,6 @@
 {
   "name": "iszero",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Test if given number is zero.",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,15 @@
   "homepage": "https://github.com/curtiszimmerman/iszero#readme",
   "devDependencies": {
     "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "false": "^0.0.4",
+    "integer-value-positive-zero": "^1.0.1",
+    "is-number": "^7.0.0",
+    "is-string": "^1.0.7",
+    "is-undefined": "^1.0.11",
+    "jquery": "^3.7.1",
+    "jquery-basic-arithmetic-plugin": "^1.1.0",
+    "returndotjs": "^1.0.0"
   }
 }
